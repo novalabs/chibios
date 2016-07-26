@@ -71,6 +71,9 @@
 #define STM32_TIM7_HANDLER          Vector11C
 #define STM32_TIM8_UP_HANDLER       VectorF0
 #define STM32_TIM8_CC_HANDLER       VectorF8
+#define STM32_TIM15_HANDLER         VectorA0
+#define STM32_TIM16_HANDLER         VectorA4
+#define STM32_TIM17_HANDLER         VectorA8
 
 #define STM32_TIM1_UP_NUMBER        25
 #define STM32_TIM1_CC_NUMBER        27
@@ -81,6 +84,9 @@
 #define STM32_TIM7_NUMBER           55
 #define STM32_TIM8_UP_NUMBER        44
 #define STM32_TIM8_CC_NUMBER        46
+#define STM32_TIM15_NUMBER          24
+#define STM32_TIM16_NUMBER          25
+#define STM32_TIM17_NUMBER          26
 
 /*
  * USART units.
