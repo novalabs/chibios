@@ -132,8 +132,8 @@
  * @api
  */
 #define US2ST(usec)                                                         \
-  ((systime_t)(((((uint64_t)(usec)) *                                       \
-                 ((uint64_t)CH_CFG_ST_FREQUENCY)) + 999999ULL) / 1000000ULL))
+  ((systime_t)(((((uint32_t)(usec)) *                                       \
+                 ((uint32_t)CH_CFG_ST_FREQUENCY)) + 999999UL) / 1000000UL))
 
 /**
  * @brief   System ticks to seconds.
